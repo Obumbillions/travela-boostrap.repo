@@ -22,20 +22,16 @@
    
 }
 .nav-item0{
-      margin-left: 400px;
-     font-size: 19px;
+      margin-left: 350px;
+      font-size: 19px;
 }
 .container{
      margin-top: 30px;
 }
-@media only screen and (max-width: 1024px) {
- 
- .nav-item0{
-      margin-left: 200px;
-     font-size: 19px;
-}
- .nav-item1{
-     margin-left: 200px;
+@media only screen and (max-width:900px) {
+
+.nav-item1{
+     margin-left: 300px;
      font-size: 19px;
 }
 
@@ -44,13 +40,17 @@
     margin-left: 20px;
    
 }
+.nav-item0{
+      margin-left: 50px;
+      font-size: 19px;
+}
 .card-img-overlay{
     text-align: center;
-    font-size: 25px;
-    margin-top: 50px;
+    font-size: 15px;
+    margin-top: 15px;
     font-style: bold;
 }
-.container{
+.row{
     flex-direction: column;
 }
 }
